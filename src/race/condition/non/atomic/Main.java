@@ -19,8 +19,8 @@ public class Main {
     }
 
     public static class SharedClass {
-        private int x;
-        private int y;
+        private volatile int x;
+        private volatile int y;
 
         public void increment(){
             x++;
